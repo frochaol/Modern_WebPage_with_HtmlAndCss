@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Css/cssGeneral/cssInicial.css">
+    <link rel="stylesheet" href="Css/cssIndex/cssIndex.css">
+    <link rel="stylesheet" href="Css/cssGeneral/Animaciones.css">
+    <link rel="stylesheet" href="Css/cssServicios/cssServicios.css">
+    <link rel="stylesheet" href="Css/cssClientes/cssClientes.css">
+    <link rel="stylesheet" href="Css/cssNosotros/cssNosotros.css">
+    <link rel="stylesheet" href="Css/cssContacto/cssContacto.css">
+    <link rel="shortcut icon" href="Imagenes/imgGenerales/ejvfavicon.png">
+    <link rel="stylesheet" href="Css/iconos.css">
+    
+    <title>EJV | Asesores Tributarios </title>
+</head>
+<body>
+   
+   <section class="inicio">
+       <div class="logo-empresa" >
+           <img src="Imagenes/imgGenerales/ejvweb.png" alt="">
+       </div>
+       <div class="especificacion">
+           <div class="seccion-direccion" >
+             <a href="contacto.html"><img src="Imagenes/imgContacto/locacion.png" alt="">&nbsp Ubícanos en Lima</a>
+             <a href="contacto.html"><img src="Imagenes/imgContacto/locacion.png" alt="">&nbsp Ubícanos en Arequipa</a>
+           </div>
+           <div class="seccion-numeros" >
+              <a><img src="Imagenes/imgContacto/fijo.png" alt="">&nbsp 01 - 408 - 4769 </a>
+              <a href="https://api.whatsapp.com/send?phone=51945970317&text=Hola!%20Quiero%20contactarme%20con%20ustedes!" target="_blank"><img src="Imagenes/imgContacto/cel.png" alt="">&nbsp 945 - 970 - 317 </a>
+           </div>
+           <div class="seccion-contacto">
+               <div class="contacto-redes">
+                    <p>Nuestras Redes: &nbsp</p>
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/ejvasesorestributarios/" rel="noopener noreferrer" target="_blank"><img src="Imagenes/imgContacto/facebook.png" alt=""></a>              
+                    </div>
+                    <div class="whatsapp">
+                        <a href="https://api.whatsapp.com/send?phone=51945970317&text=Hola!%20Quiero%20contactarme%20con%20ustedes!" target="_blank" ><img src="Imagenes/imgContacto/whatsapp.png" alt=""></a>
+                    </div>
+                    <div class="messenger">
+                        <a href="https://m.me/ejvasesorestributarios/" target="_blank"><img src="Imagenes/imgContacto/messenger.png" alt=""></a>
+                    </div>
+                </div>
+           </div>           
+       </div>
+
+   </section>
+    <!--/////////////////////// Header Principal  ///////////////////////
+    <header class="main-header animated fadeInLeft delay-0.5s">
+       <div class="container container--flex">
+           <div class="logo-container column column--50">
+              <a href="index.html"><img class="logo" src="Imagenes/imgGenerales/ejvweb.png" alt=""></a>
+           </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                  <span class="icon-telephone-accessible"><b>Teléfono Fijo | </b> 01 408 4769 <br></span><br>
+                  <span class="icon-phone"><b>Teléfono Celular | </b> 51.54. 945 970 317 <br></span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                  <span class="icon-location"><b>Lima |</b> Calle F.S. Salaverry N°160 segundo piso "B" Urbanización Retablo IV Etapa, Comas <br></span> <br> 
+                  <span class="icon-location"><b>Arequipa |</b> Residencial el Mirador de Alameda Bloque 3B Dpto. #804, Miraflores </span>
+                </p>
+            </div>
+       </div>        
+   </header>-->
+
+    <!--/////////////////////// Barra de Navegación  ///////////////////////-->
+   <header class="main-nav animated fadeInRight delay-1s " >
+       <input type="checkbox" id="btn-menu">
+       <label for="btn-menu" ><span class="icon-bars"></span></label>
+       <nav class="menu">
+           <ul>
+               <li class="nav-item icon "><a href="index.html" class="icon-home"></a></li>
+               <li class="nav-item"><a href="servicios.html">Servicios</a></li>
+               <li class="nav-item"><a href="clientes.html">Clientes</a></li>
+               <li class="nav-item "><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+               <li class="nav-item selected"><a href="contacto.html">Contacto</a></li>
+           </ul>
+       </nav>
+   </header>
+   
+    <!--/////////////////////// Barra de Presentacion  ///////////////////////-->
+    
+    <section class="banner-clientes animated fadeIn delay-1s">
+        <div class="gradiente-servicios"></div>
+        <div class="contenedor-titulo-clientes ">
+           <div class="titulo-clientes">
+               <h1>Escríbenos un mensaje explicando tus dudas y consultas, estamos para servirte.</h1>
+           </div>
+        </div>    
+    </section>
+      
+    <!--/////////////////////// Barra de Contactanos ///////////////////////-->
+        
+    <section class="main-formulario animated fadeIn delay-1s">
+      <!--
+       <div class="titulo-contactanos" >
+           <h1>CONTACTO <br><br> Envíanos un Mensaje</h1>
+       </div> -->
+        <div class="container-contacto">
+            <form action="enviar.php" method="post"> 
+                <div class="formulario-contacto">
+                <h1>Escríbenos y responderemos inmediatamente</h1>
+                    <div class="form-contacto">
+                        <label for="fnombre"><a href="" class="icon-user"></a>Nombre Completo</label>
+                        <input name="fnombre" type="text" id="fnombre" placeholder="&nbsp Ej. Perico Palotes" required>
+                        <label for="fcorreo"><a href="" class="icon-at-sign"></a>Correo Electrónico</label>
+                        <input name="fcorreo" type="text" id="fcorreo" placeholder="&nbsp Ej. ejemplo@correo.com" required>
+                        <label for="fempresa"><a href="" class="icon-building-o"></a>Nombre de tu Empresa</label>
+                        <input name="fempresa" type="text" id="fempresa" placeholder="&nbsp Ej. BuenaEmpresa S.A.C." required>
+                        <!-- -->
+                        <label for="fservicios"><a href="" class="icon-cog"></a>Servicio Específico </label>
+                        <select name="servicios" id="servicios">
+                            <option value="Contabilidad e Infomación de Gestión">&nbsp Contabilidad e Infomación de Gestión</option>
+                            <option value="Asesoría Tributaria">&nbsp Asesoría Tributaria</option>
+                            <option value="Auditoría Tributaria">&nbsp Auditoría Tributaria</option>
+                            <option value="Defensa en Proceso de Fiscalización">&nbsp Defensa en Proceso de Fiscalización</option>
+                            <option value="Recuperación de Impuestos">&nbsp Recuperación de Impuestos</option>
+                            <option value="Asesoría Laboral">&nbsp Asesoría Laboral</option>
+                            <option value="Otro Servicio">&nbsp Otro Servicio</option>
+                        </select>
+                        <label for="fmensaje">Escríbenos un Mensaje</label>
+                        <textarea name="fmensaje" id="fmensaje" placeholder="&nbsp Escríbenos un Mensaje"></textarea>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>                          
+            </form>
+
+            <div class="datos-contacto1">
+                <h1>Nuestros datos</h1>
+                <h4>Ubícanos en nuestras oficinas</h4>
+                <p> <b>Lima: </b> Calle F.S. Salaverry N°160 segundo piso "B" Urbanización Retablo IV Etapa, Comas  </p>
+                <div class="mapa" id="lima" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1461.792309925209!2d-77.05726538450143!3d-11.929303200293234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d167adc86f3f%3A0xf88e971a06744513!2sEJV+ASESORES+TRIBUTARIOS!5e1!3m2!1sen!2spe!4v1549395034905" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <p> <b>Arequipa: </b> Residencial el Mirador de la Alameda Bloque 3B Dpto. 804, Urb. Alameda de Salaverry – Miraflores</p>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.2514780667103!2d-71.51182709498423!3d-16.391666489683814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ba53b828943%3A0xd21654d576116da7!2sEl+Mirador+de+la+Alameda+de+Salaverry!5e1!3m2!1sen!2spe!4v1549246711035" width="600" height="450" frameborder="0" style="border: 0; " allowfullscreen></iframe>
+                </div>
+                <h4>Contáctate con nosotros directamente </h4>
+                <p><b>Celular: </b> 51.54. 945 970 317</p>
+                <p><b>Teléfono Fijo: </b> 01 408 4769</p>
+                <p id="correo-contacto"><b>E-Mail: </b> informes@ejvasesorestributarios.com</p>
+
+                <!-- <div class="parrafo-redes">
+                    <h4>Síguenos en Nuestras Redes</h4>
+                    <p><span class="icon-facebook" style="border-radius: 1000px; background: black;"></span>EJV Asesores Tributarios</p>
+                </div>-->
+            </div>
+        </div> 
+    </section>
+    
+    <!--/////////////////////// Barra de Footer ///////////////////////-->
+    
+    <section style="height: 100%;">
+        <footer>
+           <div class="container-footer-all">
+            <div class="container-body">
+                <div class="column1">
+                    <h1>Mas Información de la Compañia</h1>
+                    <p>EJV ASESORES TRIBUTARIOS, es un equipo multidisciplinario, especializados en Asesorías tributarias, en Defensa en proceso de fiscalización SUNAT, Auditoría Pre-fiscal, Devolución de Impuestos, Planeamiento Tributario y Revisión de gastos ocultos. <br> <br>  Con amplia visión de negocios basa en principios de compromiso, honestidad, eficiencia e innovación. Desarrollando servicios acorde con las exigencias y realidades de nuestros clientes.</p>
+                </div>
+                <div class="column3">
+                    <h1>Información Contacto</h1>
+                    <div class="row2">
+                        <span class="icon-location"></span>
+                        <label>Lima | Calle F.S. Salaverry N°160 segundo piso "B" Urbanización Retablo IV Etapa, Comas </label>
+                    </div>
+                    <div class="row2">
+                        <span class="icon-location"></span>
+                        <label>Arequipa | Residencial el Mirador de Alameda Bloque 3B Dpto. 804 Miraflores </label>
+                    </div>
+                    <div class="row2">
+                        <span class="icon-phone"></span>
+                        <label><b>Teléfono Fijo: </b> 01 408 4769 <br> <b>Teléfono Celular: </b>51.54. 945 970 317  </label>
+                    </div>
+                    <div class="row2">
+                        <span class="icon-email"></span>
+                        <a href="mailto:informes@ejvasesorestributarios.com" style="text-decoration: none;"><label id="correo">informes@ejvasesorestributarios.com</label></a>
+                    </div>
+                </div>
+                <div class="column2">
+                    <h1>Redes Sociales</h1>
+                    <div class="row">
+                        <span class="icon-facebook"></span>
+                        <a href="https://www.facebook.com/ejvasesorestributarios/" rel="noopener noreferrer" target="_blank" style="text-decoration: none;"><label>Síguenos en Facebook</label></a>
+                    </div>
+                </div>
+
+            </div>
+           </div>
+            <div class="container-footer">
+               <div class="footer">
+                <div class="copyright">
+                    © 2019 Todos los Derechos Reservados | <a href="https://www.facebook.com/frochaolivera"  target="_blank">Consultoría Tecnológica Integral</a>
+                </div>
+                <div class="information">
+                    <a href="">Información Compañia</a> | <a href="">Privacidad y Política</a> | <a href="">Términos y Condiciones</a>
+                </div>
+                </div>
+            </div>  
+        </footer>
+    </section>
+    
+   
+</body>
+</html>
