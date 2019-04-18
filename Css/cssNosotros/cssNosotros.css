@@ -1,0 +1,261 @@
+.banner-clientes{
+    background-image: url("../../Imagenes/imgNosotros/Banner1.jpeg");
+    z-index: -500;
+}
+
+.contenido-principal{    
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contenido-nuestro{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenido-nuestro-titulo{
+    margin: 20px 0px;
+}
+
+.nuestro-titulo{
+    text-align: center;
+    background: #003C4C;
+    margin: auto;
+}
+
+.nuestro-titulo h1{
+    font-size: 25px;
+    padding: 5px 0px;;
+    color: #fff;
+}
+
+.contenido-nuestro-parrafo{
+    background: #007ba4;
+    padding: 25px;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.contenido-nuestro-parrafo p{
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+/**/
+
+
+
+main{
+    width: 100%;
+
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px;
+    background-image: url(../../Imagenes/imgNosotros/Fondo2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.capa-nosotros{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,60,76,0.7);
+    top: 0;
+    left: 0;
+}
+
+.h1{
+    position: relative;
+    color: #fff;
+}
+
+.parrafo1{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contenedor-nosotros{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.nosotros{
+    width: 340px;
+    margin: 20px;
+    background: rgba(255,255,255,.85);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 5px #003C4C;
+}
+
+.nosotros h2{
+    margin-top: -40px;
+    color: #003C4C;
+}
+
+.nosotros h4{
+    margin-top: 20px;
+    font-weight: 400;
+    color: #003C4C;
+}
+
+.nosotros p{
+    margin-top: 10px;
+    font-weight: 100;
+    color: #007BA4;
+    text-align: justify;
+    padding: 20px;
+}
+
+.foto-perfil1, .foto-perfil2, .foto-perfil3, .foto-perfil4, .foto-perfil5, .foto-perfil6{
+    width: 120px;
+    height: 120px;    
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    box-shadow: 0px 0px 30px -6px #003C4C;
+    margin-top: 15px;
+}
+
+.foto-perfil1{
+    background-image: url(../../Imagenes/imgNosotros/elvis.png);
+}
+
+.foto-perfil2{
+    background-image: url(../../Imagenes/imgNosotros/marco.png);
+}
+
+.foto-perfil3{
+    background-image: url(../../Imagenes/imgNosotros/cristhian.png);
+}
+
+.foto-perfil4{
+    background-image: url(../../Imagenes/imgNosotros/guiliana.png);
+}
+
+.foto-perfil5{
+    background-image: url(../../Imagenes/imgNosotros/yenser.png);
+}
+
+.foto-perfil6{
+    background-image: url(../../Imagenes/imgNosotros/carol.png);
+}
+
+.container-redes{
+    margin-top: 20px;
+}
+
+.container-redes label{
+    font-size: 25px;
+}
+
+.container-redes a{
+    text-decoration: none;
+}
+
+.container-redes a:hover{
+    cursor: pointer;
+}
+
+
+/*----------- MEDIDAS RESPONSIVE --------------*/
+
+@media screen and (min-width: 360px) {
+    
+    
+}
+
+@media screen and (min-width: 375px){
+    
+}
+
+@media screen and (min-width: 414px){
+    
+    .contenido-nuestro-parrafo p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    
+}
+
+@media screen and (min-width: 568px){
+    
+    .contenido-nuestro-parrafo{
+        padding: 25px 80px;
+    }
+}
+
+@media screen and (min-width: 640px){
+    
+    .contenido-nuestro-parrafo p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 667px){
+    
+    .contenido-nuestro-parrafo {
+        text-align: center;
+    }
+    
+    .nuestro-titulo h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 736px){
+    
+}
+
+@media screen and (min-width: 760px){
+    
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 1024px){
+    
+}
+
+@media screen and (min-width: 1100px){
+    
+}
+
+@media screen and (min-width: 1280px){
+    
+}
+
+@media screen and (min-width: 1600px){
+    
+}
+
+
+
+

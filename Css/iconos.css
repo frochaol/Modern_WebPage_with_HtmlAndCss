@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "iconos";
+  src:url("../Fuentes/iconos.eot");
+  src:url("../Fuentes/iconos.eot?#iefix") format("embedded-opentype"),
+    url("../Fuentes/iconos.woff") format("woff"),
+    url("../Fuentes/iconos.ttf") format("truetype"),
+    url("../Fuentes/iconos.svg#iconos") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "iconos" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "iconos" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\62";
+}
+.icon-twitter:before {
+  content: "\63";
+}
+.icon-youtube:before {
+  content: "\64";
+}
+.icon-email:before {
+  content: "\65";
+}
+.icon-location:before {
+  content: "\66";
+}
+.icon-phone:before {
+  content: "\67";
+}
+.icon-whatsapp:before {
+  content: "\69";
+}
+.icon-graduation-cap:before {
+  content: "\61";
+}
+.icon-linkedin-square:before {
+  content: "\68";
+}
+.icon-bars:before {
+  content: "\6a";
+}
+.icon-home:before {
+  content: "\6b";
+}
+.icon-arrow-right:before {
+  content: "\6c";
+}
+.icon-arrow-left:before {
+  content: "\6d";
+}
+.icon-user:before {
+  content: "\6e";
+}
+.icon-at-sign:before {
+  content: "\6f";
+}
+.icon-building-o:before {
+  content: "\71";
+}
+.icon-cog:before {
+  content: "\70";
+}
