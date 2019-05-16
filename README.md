@@ -1,4 +1,34 @@
-# Modern_WebPage_with_HtmlAndCss
+# Página web profesional adaptable (responsive).
+---
 
-Modern web page for EJV Asesores Tributarios enterprise. Created with html5 and css3 with a php document for the messages.
-Can be show in the following link: https://www.ejvasesorestributarios.com/
+```
+Página web profesional diseñada para la presentación de una empresa llamada EJV Asesores Tributarios en Arequipa - Perú
+```
+
+# Para más información buscar la página en: 
+  ## www.ejvasesorestributarios.com
+
+## Autor
+
+**Fernando Rocha Olivera** - *Trabajo realizado de manera freelance, para la empresa EJV Asesores Tributarios - Arequipa* 
+---
+
+* **En todas las páginas se puede comunicar con facebook pages, whatsapp chat, y messenger chat.**
+* **Cuenta con la página inicial de presentación de la empresa.**
+* **Cuentra con página de oferta y explicación de servicios ofrecidos.**
+* **Cuenta con página que ofrece la presentación de clientes satisfechos.**
+* **Cuenta con página que presenta la empresa y sus colaboradores.**
+* **Cuenta con página de contácto que ofrece la posibilidad de envío de correos y muestra ubicaciones.**
+
+## Página Inicial 
+---
+
+
+### Página de inicio en su versión full size (Desktop)
+
+![alt text](http://www.ejvasesorestributarios.com/gestion/ejv/home-page-full-size.png)
+
+### Página de inicio en su versión small size (Phone)
+
+![alt text](http://www.ejvasesorestributarios.com/gestion/ejv/home-page-phone-size.png)
+
