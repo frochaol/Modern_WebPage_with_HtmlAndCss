@@ -1,4 +1,4 @@
-# Página web profesional adaptable (responsive).
+# Página web totalmente adaptable a dispositivos (responsive).
 ---
 
 ```
@@ -19,16 +19,4 @@ Página web profesional diseñada para la presentación de una empresa llamada E
 * **Cuenta con página que ofrece la presentación de clientes satisfechos.**
 * **Cuenta con página que presenta la empresa y sus colaboradores.**
 * **Cuenta con página de contácto que ofrece la posibilidad de envío de correos y muestra ubicaciones.**
-
-## Página Inicial 
----
-
-
-### Página de inicio en su versión full size (Desktop)
-
-![alt text](http://www.ejvasesorestributarios.com/gestion/ejv/home-page-full-size.png)
-
-### Página de inicio en su versión small size (Phone)
-
-![alt text](http://www.ejvasesorestributarios.com/gestion/ejv/home-page-phone-size.png)
 
