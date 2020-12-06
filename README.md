@@ -5,8 +5,8 @@
 Página web profesional diseñada para la presentación de una empresa llamada EJV Asesores Tributarios en Arequipa - Perú
 ```
 
-# Para más información buscar la página en: 
-  ## www.ejvasesorestributarios.com
+# Para visualizar el diseño buscar la página en: 
+  ## https://frochaol.github.io/Pagina-EJV-Asesores-Tributarios/contacto.html
 
 ## Autor
 
