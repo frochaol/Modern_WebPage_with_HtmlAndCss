@@ -6,7 +6,7 @@ Página web profesional diseñada para la presentación de una empresa llamada E
 ```
 
 # Para visualizar el diseño buscar la página en: 
-  ## https://frochaol.github.io/Pagina-EJV-Asesores-Tributarios/contacto.html
+  ## https://frochaol.github.io/Pagina-EJV-Asesores-Tributarios/index.html
 
 ## Autor
 
