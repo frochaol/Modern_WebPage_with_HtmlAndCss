@@ -1,9 +1,9 @@
 # Página web totalmente adaptable a dispositivos (responsive).
 ---
 
-```
-Página web profesional diseñada para la presentación de una empresa llamada EJV Asesores Tributarios en Arequipa - Perú
-```
+Página web profesional diseñada para la presentación de una empresa llamada EJV Asesores Tributarios en Arequipa - Perú en 2017
+
+Este proyecto será una actualización aplicando buenas prácticas y el patrón de diseño mobile first.
 
 # Para visualizar el diseño buscar la página en: 
   ## https://frochaol.github.io/Pagina-EJV-Asesores-Tributarios/index.html
